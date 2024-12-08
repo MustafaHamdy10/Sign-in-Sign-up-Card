@@ -1,0 +1,117 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #273e50;
+}
+.container{
+    width: 350px;
+    background: url(../Images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 45px 50px 140px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 40px #000000bd;
+    position: relative;
+    overflow: hidden;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.container form{
+    text-align: center;
+}
+.container form .inp{
+    margin: 5px 0px 20px;
+    position: relative;
+}
+.container form .inp i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #4db6fc;
+}
+.container form .inp input{
+    width: 100%;
+    padding: 10px 5px 10px 35px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.container form .check-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container form .check-box .check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.container form .check-box .check span{
+    font-size: 13px;
+    color: white;
+}
+.container form .check-box .forget{
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.container form .check-box .forget:hover{
+    text-decoration: underline;
+}
+.container form button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #4db6fc;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #4db6fc;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin-top: 15px;
+}
+.container form button:hover{
+    background-color: white;
+    color: #4db6fc;
+}
+/* //////////////////////////////////////////////////// */
+
+.container .sign-up{
+    position: absolute;
+    top: calc(100%  -  75px);
+    left: 0;
+    width: 350px;
+    background-color: white;
+    padding: 20px 50px 100px;
+    border-radius: 60%/10%;
+    transition: 0.3s ;
+}
+.sign-up.active{
+    top: 90px;
+
+}
+.container .sign-up h1{
+    color: #4db6fc;
+}
+.container .sign-up .inp input{
+    background-color: #e6ebf0;
+
+}
+
+
